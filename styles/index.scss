@@ -1,0 +1,56 @@
+body{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #111111;
+    padding: 0px 125px;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+.sect-one h4 {
+    color: #4A4FF2;
+  }
+  .sect-one p {
+    font-size: 40px;
+    line-height: 60px;
+    width: 635px;
+    height: 191px;
+  }
+  .sect-one span {
+    color: #4A4FF2;
+  }
+  .sect-one h6 {
+    position: relative;
+    top: 145px;
+    left: 120px;
+    opacity: 60%;
+  }
+  .sect-one__text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  h6::after {
+    content: "";
+    background-color: #111111;
+    opacity: 60%;
+    position: absolute;
+    top: -9px;
+    left: 0;
+    height: 2px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  
+@import './header';
+@import './homepage';
+@import './services';
+@import './footer';
+@import './contact';
+@import './projects';
